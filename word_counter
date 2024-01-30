@@ -1,0 +1,9 @@
+def word_count(text):
+    thewords = text.split()
+    return len(thewords)
+
+text = input("Please enter your text: ")
+
+number_of_words = word_count(text)
+
+print("The number of words contained in that statement was;" , number_of_words)
